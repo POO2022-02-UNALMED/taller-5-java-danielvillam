@@ -16,8 +16,7 @@ public class Zoologico {
 		this.ubicacion=ubicacion;
 	}
 	
-	public void agregarZonas(String nombre) {
-		Zona zona = new Zona(nombre,this);
+	public void agregarZonas(Zona zona) {
 		zonas.add(zona);
 	}
 	

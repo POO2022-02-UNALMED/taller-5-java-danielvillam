@@ -17,8 +17,7 @@ public class Zona {
 		this.zoo=zoo;
 	}
 	
-	public void agregarAnimales(String nombre, int edad, String habitat, String genero, Zona zona) {
-		Animal animal = new Animal(nombre, edad, habitat, genero, zona);
+	public void agregarAnimales(Animal animal) {
 		animales.add(animal);
 	}
 	
